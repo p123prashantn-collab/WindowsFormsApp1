@@ -19,6 +19,7 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
         Mat inimg = new Mat();
+        Mat outimg=new Mat();
         private void Form1_Load(object sender, EventArgs e)
         {
                             

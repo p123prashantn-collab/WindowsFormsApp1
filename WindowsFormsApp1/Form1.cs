@@ -21,14 +21,22 @@ namespace WindowsFormsApp1
         Mat inimg = new Mat();
         Mat outimg=new Mat();
         Mat v = new Mat();
+        int a = 10;
+        int b = 20;
+        int res = 0;
         private void Form1_Load(object sender, EventArgs e)
         {
-                            
+            addition();             
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+        public void addition()
+        {
+            res = a + b;
+          
         }
     }
 }
